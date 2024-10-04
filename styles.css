@@ -243,7 +243,7 @@ body.instagram-theme .anonymous-qa {
     button {
         font-size: 16px; /* Keep the button size similar to desktop */
         padding: 10px; /* Increase padding for better touch interaction */
-        border-radius: 10px; /* Maintain rounded appearance */
+        border-radius: 20px; /* Increased border-radius for a more rounded appearance */
     }
 
     .profile-info {
