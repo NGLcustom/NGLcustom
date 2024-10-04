@@ -7,9 +7,6 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
-     
-        
-
         .dancing-cat {
             position: fixed;
             bottom: 10px; 
@@ -43,21 +40,22 @@
             <div class="profile-info">
                 <img src="OIP.jpg" alt="Profile Picture" class="profile-pic">
                 <p class="username">@octa.v.v</p>
-                <p class="subtext"><i class="fas fa-comment-dots"></i> Send me anonymous messages!</p>
+                <p class="subtext"><i class="fas fa-comment-dots"></i> Trimite-mi mesaje anonime:)</p>
             </div>
             <form id="email-form"> 
                 <div class="input-container">
                     <textarea id="messageInput" name="message" placeholder="Scrieți mesajul dvs. anonim aici..."></textarea> 
                     <i id="randomQuestionButton" class="fas fa-dice random-question-icon"></i>
                 </div>
-                <div class="anonymous-qa">
-                    <i class="fas fa-lock"></i> întrebări și răspunsuri anonime
-                </div>
-                <button type="submit"><i class="fas fa-paper-plane"></i> Trimite mesaj</button> 
+             
             </form>
-            
         </div>
+        <div class="anonymous-qa">
+            <i class="fas fa-lock"></i> întrebări și răspunsuri anonime
+        </div>
+        <button type="submit"><i class="fas fa-paper-plane"></i> Trimite mesaj</button> <!-- Moved outside the form -->
     </div>
+    
 
     <img src="3983432-middle-removebg-preview.png" alt="Dancing Cat" class="dancing-cat"> 
 
@@ -68,18 +66,17 @@
         })();
     </script>
 
-<script>
-    // Prevent touchmove events to disable scrolling on mobile
-    document.addEventListener('touchmove', function(event) {
-        event.preventDefault();
-    }, { passive: false });
+    <script>
+        // Prevent touchmove events to disable scrolling on mobile
+        document.addEventListener('touchmove', function(event) {
+            event.preventDefault();
+        }, { passive: false });
 
-    // Prevent text selection
-    document.addEventListener('selectstart', function(event) {
-        event.preventDefault();
-    });
-</script>
-
+        // Prevent text selection
+        document.addEventListener('selectstart', function(event) {
+            event.preventDefault();
+        });
+    </script>
 
     <script type="text/javascript" src="script.js"></script>
 </body>
