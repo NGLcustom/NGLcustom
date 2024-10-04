@@ -236,13 +236,8 @@ body.instagram-theme .anonymous-qa {
 
 @media (max-width: 480px) {
     h1 {
-        font-family: 'Peking Duck', cursive; /* Applying the new font */
-        font-size: 28px; /* Increased size for visibility */
-        color: #ffffff; /* Start with white color */
-        transition: background 0.5s ease, color 0.5s ease; /* Smooth transition for color change */
-        text-shadow: 0 0 3px rgba(0, 0, 0, 0.5); /* Reduced shadow for clarity */
+        font-size: 24px; 
     }
-    
     
     .container {
         padding: 15px; 
