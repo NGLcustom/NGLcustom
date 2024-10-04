@@ -8,9 +8,9 @@
 }
 
 html, body {
-    height: 100%; /* Ensure full height */
-    overflow: hidden; /* Prevent scrolling */
-    user-select: none; /* Prevent text selection */
+    height: 100%; 
+    overflow: hidden; 
+    user-select: none;
 }
 
 body {
@@ -25,13 +25,13 @@ body {
 }
 
 body.instagram-theme {
-    background: linear-gradient(135deg, #f58529, #f77737, #d62976, #962fbf, #4f5bd5); /* Instagram gradient */
-    color: #333333; /* Dark text for contrast */
+    background: linear-gradient(135deg, #f58529, #f77737, #d62976, #962fbf, #4f5bd5); 
+    color: #333333; 
 }
 
 .container {
     width: 100%;
-    max-width: 400px; /* Keep a max width for larger screens */
+    max-width: 400px; 
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -44,21 +44,21 @@ body.instagram-theme {
 }
 
 h1 {
-    font-family: 'Forest Trophy Textured', cursive; /* Applying the new font */
-    font-size: 38px; /* Increased size for visibility */
-    color: #ffffff; /* Start with white color */
-    transition: background 0.5s ease, color 0.5s ease; /* Smooth transition for color change */
-    text-shadow: 0 0 3px rgba(0, 0, 0, 0.5); /* Reduced shadow for clarity */
+    font-family: 'Forest Trophy Textured', cursive; 
+    font-size: 38px; 
+    color: #ffffff; 
+    transition: background 0.5s ease, color 0.5s ease; 
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.5); 
 }
 
 
 
 body.instagram-theme h1 {
     background: linear-gradient(135deg, #f58529, #f77737, #d62976, #962fbf, #4f5bd5);
-    -webkit-background-clip: text; /* For Safari */
-    background-clip: text; /* Standard property for compatibility */
-    -webkit-text-fill-color: transparent; /* For Safari */
-    text-shadow: 0 0 3px rgba(0, 0, 0, 0.5); /* Maintain reduced shadow in Instagram theme */
+    -webkit-background-clip: text; 
+    background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.5); 
 }
 
 .theme-switcher {
@@ -91,35 +91,35 @@ body.instagram-theme h1 {
 }
 
 .toggle-container.active {
-    background: #f58529; /* Active background color */
+    background: #f58529; 
 }
 
 .toggle-container.active::before {
-    transform: translateX(24px); /* Move the toggle ball to the right */
+    transform: translateX(24px); 
 }
 
 .message-box {
-    background: linear-gradient(135deg, #0d0d0d, #1e1e1e); /* Dark gradient for the message box */
-    border-radius: 15px; /* Keep overall rounding */
-    padding: 10px; /* Add padding around the entire message box */
+    background: linear-gradient(135deg, #0d0d0d, #1e1e1e);
+    border-radius: 15px; 
+    padding: 10px; 
     width: 100%;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: column;
     gap: 15px;
-    transition: background-color 0.5s ease; /* Smooth transition for background change */
+    transition: background-color 0.5s ease; 
 }
 
 body.instagram-theme .message-box {
-    background: linear-gradient(135deg, #1c1c1c, #292929); /* Dark gradient for Instagram theme */
+    background: linear-gradient(135deg, #1c1c1c, #292929); 
 }
 
 .profile-info {
     display: flex;
     align-items: center;
     gap: 10px;
-    background-color: transparent; /* Remove the separate background */
-    padding: 0; /* Remove padding */
+    background-color: transparent; 
+    padding: 0; 
 }
 
 .profile-pic {
@@ -131,42 +131,42 @@ body.instagram-theme .message-box {
 
 .username {
     font-size: 18px;
-    color: #ffffff; /* Start with white color */
-    transition: background 0.5s ease, color 0.5s ease; /* Smooth transition */
+    color: #ffffff; 
+    transition: background 0.5s ease, color 0.5s ease; 
 }
 
 body.instagram-theme .username {
     background: linear-gradient(135deg, #f58529, #f77737, #d62976, #962fbf, #4f5bd5);
-    -webkit-background-clip: text; /* For Safari */
-    background-clip: text; /* Standard property for compatibility */
-    -webkit-text-fill-color: transparent; /* For Safari */
-    text-shadow: 0 0 5px rgba(0, 0, 0, 0.7); /* Shadow for visibility */
+    -webkit-background-clip: text; 
+    background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.7); 
 }
 
 .subtext {
-    color: #aaa; /* Slightly lighter color for better readability */
+    color: #aaa; 
     font-size: 12px;
-    transition: color 0.5s ease; /* Smooth transition for color change */
+    transition: color 0.5s ease; 
 }
 
 body.instagram-theme .subtext {
-    color: #ddd; /* Lighter subtext color in Instagram theme */
+    color: #ddd; 
 }
 
 textarea {
     width: 100%;
     height: 100px;
     border: none;
-    border-radius: 0 0 10px 10px; /* Rounded corners at the bottom */
+    border-radius: 0 0 10px 10px; 
     padding: 10px;
-    background-color: rgba(41, 41, 41, 0.3); /* More transparent background */
+    background-color: rgba(41, 41, 41, 0.3); 
     color: #ffffff;
     resize: none;
-    transition: background-color 0.5s ease; /* Add transition for background color */
+    transition: background-color 0.5s ease; 
 }
 
 body.instagram-theme textarea {
-    background-color: rgba(53, 53, 53, 0.3); /* More transparent background for Instagram theme */
+    background-color: rgba(53, 53, 53, 0.3); 
 }
 
 
@@ -181,53 +181,53 @@ textarea::placeholder {
 }
 
 button {
-    background-color: #ffffff; /* Button color */
+    background-color: #ffffff; 
     color: #000000;
     border: none;
-    border-radius: 25px; /* Make the button more rounded */
-    padding: 15px 30px; /* Increased padding for larger size */
+    border-radius: 25px; 
+    padding: 15px 30px; 
     cursor: pointer;
-    font-size: 18px; /* Increased font size */
+    font-size: 18px; 
     transition: background-color 0.3s ease, transform 0.2s ease;
-    display: block; /* Allows margin auto to work */
-    margin: 20px auto; /* Center the button horizontally and add margin above */
-    max-width: 250px; /* Limit button width */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow for depth */
+    display: block; 
+    margin: 20px auto; 
+    max-width: 250px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 button:hover {
-    background-color: #e9e6e6; /* Darker color on hover */
-    transform: scale(1.05); /* Slightly enlarge on hover for effect */
+    background-color: #e9e6e6;
+    transform: scale(1.05); 
 }
 
 
 .input-container {
-    position: relative; /* Position relative to contain the absolute icon */
-    width: 100%; /* Full width */
+    position: relative; 
+    width: 100%; 
 }
 
 .random-question-icon {
-    font-size: 24px; /* Icon size */
-    cursor: pointer; /* Pointer on hover */
-    position: absolute; /* Position it inside the container */
-    right: 7px; /* Position from the right */
-    top: 78%; /* Center it vertically */
-    transform: translateY(-50%); /* Adjust for proper centering */
-    z-index: 1; /* Make sure it appears above the textarea */
-    color: #ffffff; /* Default color for dark theme */
-    transition: color 0.3s; /* Smooth transition for color change */
+    font-size: 24px; 
+    cursor: pointer; 
+    position: absolute; 
+    right: 7px; 
+    top: 78%; 
+    transform: translateY(-50%); 
+    z-index: 1; 
+    color: #ffffff; 
+    transition: color 0.3s; 
 }
 
 body.instagram-theme .random-question-icon {
-    color: #f58529; /* Change color for Instagram theme */
+    color: #f58529; 
 }
 
 .anonymous-qa {
     display: flex;
-    align-items: center; /* Align icon and text */
-    color: #ffffff; /* Default color for dark theme */
-    font-size: 14px; /* Font size for the text */
-    gap: 5px; /* Space between icon and text */
+    align-items: center; 
+    color: #ffffff; 
+    font-size: 14px; 
+    gap: 5px; 
     justify-content: center; 
     margin-bottom: 10px; 
 }
@@ -240,8 +240,8 @@ body.instagram-theme .anonymous-qa {
    /* Media Query for Mobile */
 @media (max-width: 480px) {
     h1 {
-        font-size: 32px; /* Adjust size for mobile */
-        text-align: center; /* Center the title */
+        font-size: 32px; 
+        text-align: center; 
     }
 }
     
@@ -251,41 +251,41 @@ body.instagram-theme .anonymous-qa {
     }
 
     button {
-        font-size: 20px; /* Keep the button size similar to desktop */
-        padding: 10px; /* Increase padding for better touch interaction */
-        border-radius: 25px; /* Increased border-radius for a more rounded appearance */
+        font-size: 20px; 
+        padding: 10px; 
+        border-radius: 25px; 
     }
 
     .profile-info {
-        gap: 10px; /* Maintain spacing */
-        padding: 10px; /* Keep the padding */
+        gap: 10px; 
+        padding: 10px; 
     }
 
     .profile-pic {
-        width: 50px; /* Maintain size consistent with desktop */
+        width: 50px; 
         height: 50px; 
     }
 
     .username {
-        font-size: 18px; /* Keep consistent with desktop */
+        font-size: 18px; 
     }
 
     .subtext {
-        font-size: 12px; /* Keep consistent with desktop */
+        font-size: 12px; 
     }
 
     .random-question-icon {
-        font-size: 24px; /* Keep the icon size larger for easier tapping */
+        font-size: 24px; 
     }
 
     textarea {
-        height: 120px; /* Slightly taller for mobile */
-        font-size: 16px; /* Adjust font size for readability */
-        padding: 12px; /* Add padding for touch interaction */
+        height: 120px; 
+        font-size: 16px; 
+        padding: 12px;
     }
 
     .message-box {
-        padding: 20px; /* Ensure consistent padding around the message box */
-        border-radius: 15px; /* Maintain rounded corners */
+        padding: 20px; 
+        border-radius: 15px; 
     }
 
