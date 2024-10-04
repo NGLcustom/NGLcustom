@@ -68,6 +68,19 @@
         })();
     </script>
 
+<script>
+    // Prevent touchmove events to disable scrolling on mobile
+    document.addEventListener('touchmove', function(event) {
+        event.preventDefault();
+    }, { passive: false });
+
+    // Prevent text selection
+    document.addEventListener('selectstart', function(event) {
+        event.preventDefault();
+    });
+</script>
+
+
     <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
