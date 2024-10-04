@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Peking+Duck&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Forest+Trophy+Textured&display=swap');
+
 
 * {
     margin: 0;
@@ -43,12 +44,13 @@ body.instagram-theme {
 }
 
 h1 {
-    font-family: 'Peking Duck', cursive; /* Applying the new font */
+    font-family: 'Forest Trophy Textured', cursive; /* Applying the new font */
     font-size: 38px; /* Increased size for visibility */
     color: #ffffff; /* Start with white color */
     transition: background 0.5s ease, color 0.5s ease; /* Smooth transition for color change */
     text-shadow: 0 0 3px rgba(0, 0, 0, 0.5); /* Reduced shadow for clarity */
 }
+
 
 
 body.instagram-theme h1 {
@@ -245,7 +247,7 @@ body.instagram-theme .anonymous-qa {
     }
 
     button {
-        font-size: 18px; /* Keep the button size similar to desktop */
+        font-size: 26px; /* Keep the button size similar to desktop */
         padding: 10px; /* Increase padding for better touch interaction */
         border-radius: 25px; /* Increased border-radius for a more rounded appearance */
     }
