@@ -13,16 +13,18 @@ body {
     align-items: center;
     height: 100vh;
     transition: background 0.5s ease, color 0.5s ease;
+    overflow: hidden; /* Prevent scrolling */
+    user-select: none; /* Prevent text selection */
 }
 
 body.instagram-theme {
-    background: linear-gradient(135deg, #f58529, #f77737, #d62976, #962fbf, #4f5bd5);
-    color: #333333;
+    background: linear-gradient(135deg, #f58529, #f77737, #d62976, #962fbf, #4f5bd5); /* Instagram gradient */
+    color: #333333; /* Dark text for contrast */
 }
 
 .container {
     width: 100%;
-    max-width: 400px;
+    max-width: 400px; /* Keep a max width for larger screens */
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -35,18 +37,18 @@ body.instagram-theme {
 }
 
 h1 {
-    font-size: 28px;
-    color: #ffffff;
-    transition: background 0.5s ease, color 0.5s ease;
-    text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    font-size: 28px; /* Increased size for visibility */
+    color: #ffffff; /* Start with white color */
+    transition: background 0.5s ease, color 0.5s ease; /* Smooth transition for color change */
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.5); /* Reduced shadow for clarity */
 }
 
 body.instagram-theme h1 {
     background: linear-gradient(135deg, #f58529, #f77737, #d62976, #962fbf, #4f5bd5);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    -webkit-background-clip: text; /* For Safari */
+    background-clip: text; /* Standard property for compatibility */
+    -webkit-text-fill-color: transparent; /* For Safari */
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.5); /* Maintain reduced shadow in Instagram theme */
 }
 
 .theme-switcher {
@@ -79,15 +81,15 @@ body.instagram-theme h1 {
 }
 
 .toggle-container.active {
-    background: #f58529;
+    background: #f58529; /* Active background color */
 }
 
 .toggle-container.active::before {
-    transform: translateX(24px);
+    transform: translateX(24px); /* Move the toggle ball to the right */
 }
 
 .message-box {
-    background-color: #1e1e1e;
+    background-color: #1e1e1e; /* Dark background for the message box */
     border-radius: 15px;
     padding: 20px;
     width: 100%;
@@ -95,11 +97,11 @@ body.instagram-theme h1 {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    transition: background-color 0.5s ease;
+    transition: background-color 0.5s ease; /* Smooth transition for background change */
 }
 
 body.instagram-theme .message-box {
-    background-color: #292929;
+    background-color: #292929; /* Slightly lighter background for message box in Instagram theme */
 }
 
 .profile-info {
@@ -117,26 +119,26 @@ body.instagram-theme .message-box {
 
 .username {
     font-size: 18px;
-    color: #ffffff;
-    transition: background 0.5s ease, color 0.5s ease;
+    color: #ffffff; /* Start with white color */
+    transition: background 0.5s ease, color 0.5s ease; /* Smooth transition */
 }
 
 body.instagram-theme .username {
     background: linear-gradient(135deg, #f58529, #f77737, #d62976, #962fbf, #4f5bd5);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+    -webkit-background-clip: text; /* For Safari */
+    background-clip: text; /* Standard property for compatibility */
+    -webkit-text-fill-color: transparent; /* For Safari */
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.7); /* Shadow for visibility */
 }
 
 .subtext {
-    color: #aaa;
+    color: #aaa; /* Slightly lighter color for better readability */
     font-size: 12px;
-    transition: color 0.5s ease;
+    transition: color 0.5s ease; /* Smooth transition for color change */
 }
 
 body.instagram-theme .subtext {
-    color: #ddd;
+    color: #ddd; /* Lighter subtext color in Instagram theme */
 }
 
 textarea {
@@ -148,11 +150,11 @@ textarea {
     background-color: #292929;
     color: #ffffff;
     resize: none;
-    transition: background-color 0.5s ease;
+    transition: background-color 0.5s ease; /* Add transition for background color */
 }
 
 body.instagram-theme textarea {
-    background-color: #353535;
+    background-color: #353535; /* Darker gray for textarea in Instagram theme */
 }
 
 textarea:focus {
@@ -165,7 +167,7 @@ textarea::placeholder {
 }
 
 button {
-    background-color: #ffffff;
+    background-color: #ffffff; /* Button color */
     color: #000000;
     border: none;
     border-radius: 10px;
@@ -173,60 +175,60 @@ button {
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s ease, transform 0.2s ease;
-    display: block;
-    margin: 0 auto;
-    max-width: 200px;
+    display: block; /* Allows margin auto to work */
+    margin: 0 auto; /* Center the button horizontally */
+    max-width: 200px; /* Limit button width */
 }
 
 button:hover {
-    background-color: #e9e6e6;
+    background-color: #e9e6e6; /* Darker color on hover */
 }
 
 .input-container {
-    position: relative;
-    width: 100%;
+    position: relative; /* Position relative to contain the absolute icon */
+    width: 100%; /* Full width */
 }
 
 textarea {
-    width: 100%;
-    height: 100px;
-    border: none;
-    border-radius: 10px;
-    padding: 10px;
-    padding-right: 40px;
-    background-color: #292929;
-    color: #fff;
-    resize: none;
+    width: 100%; /* Full width */
+    height: 100px; /* Fixed height */
+    border: none; /* Remove border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px; /* Padding for text */
+    padding-right: 40px; /* Space for the icon */
+    background-color: #292929; /* Background color */
+    color: #fff; /* Text color */
+    resize: none; /* Disable resizing */
 }
 
 .random-question-icon {
-    font-size: 24px;
-    cursor: pointer;
-    position: absolute;
-    right: 7px;
-    top: 78%;
-    transform: translateY(-50%);
-    z-index: 1;
-    color: #ffffff;
-    transition: color 0.3s;
+    font-size: 24px; /* Icon size */
+    cursor: pointer; /* Pointer on hover */
+    position: absolute; /* Position it inside the container */
+    right: 7px; /* Position from the right */
+    top: 78%; /* Center it vertically */
+    transform: translateY(-50%); /* Adjust for proper centering */
+    z-index: 1; /* Make sure it appears above the textarea */
+    color: #ffffff; /* Default color for dark theme */
+    transition: color 0.3s; /* Smooth transition for color change */
 }
 
 body.instagram-theme .random-question-icon {
-    color: #f58529;
+    color: #f58529; /* Change color for Instagram theme */
 }
 
 .anonymous-qa {
     display: flex;
-    align-items: center;
-    color: #ffffff;
-    font-size: 14px;
-    gap: 5px;
-    justify-content: center;
-    margin-bottom: 10px;
+    align-items: center; /* Align icon and text */
+    color: #ffffff; /* Default color for dark theme */
+    font-size: 14px; /* Font size for the text */
+    gap: 5px; /* Space between icon and text */
+    justify-content: center; 
+    margin-bottom: 10px; 
 }
 
 body.instagram-theme .anonymous-qa {
-    color: #f58529;
+    color: #f58529; 
 }
 
 @media (max-width: 480px) {
