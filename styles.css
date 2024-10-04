@@ -241,24 +241,41 @@ body.instagram-theme .anonymous-qa {
     }
 
     button {
-        font-size: 14px;
-        padding: 8px; 
+        font-size: 16px; /* Keep the button size similar to desktop */
+        padding: 10px; /* Increase padding for better touch interaction */
+        border-radius: 10px; /* Maintain rounded appearance */
+    }
+
+    .profile-info {
+        gap: 10px; /* Maintain spacing */
+        padding: 10px; /* Keep the padding */
     }
 
     .profile-pic {
-        width: 40px; 
-        height: 40px; 
+        width: 50px; /* Maintain size consistent with desktop */
+        height: 50px; 
     }
 
     .username {
-        font-size: 16px; 
+        font-size: 18px; /* Keep consistent with desktop */
     }
 
     .subtext {
-        font-size: 10px; 
+        font-size: 12px; /* Keep consistent with desktop */
     }
 
     .random-question-icon {
-        font-size: 20px; 
+        font-size: 24px; /* Keep the icon size larger for easier tapping */
+    }
+
+    textarea {
+        height: 120px; /* Slightly taller for mobile */
+        font-size: 16px; /* Adjust font size for readability */
+        padding: 12px; /* Add padding for touch interaction */
+    }
+
+    .message-box {
+        padding: 20px; /* Ensure consistent padding around the message box */
+        border-radius: 15px; /* Maintain rounded corners */
     }
 }
