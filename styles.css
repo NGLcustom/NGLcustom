@@ -236,10 +236,14 @@ body.instagram-theme .anonymous-qa {
     color: #f58529; 
 }
 
+
+   /* Media Query for Mobile */
 @media (max-width: 480px) {
     h1 {
-        font-size: 24px; 
+        font-size: 32px; /* Adjust size for mobile */
+        text-align: center; /* Center the title */
     }
+}
     
     .container {
         padding: 15px; 
@@ -247,7 +251,7 @@ body.instagram-theme .anonymous-qa {
     }
 
     button {
-        font-size: 26px; /* Keep the button size similar to desktop */
+        font-size: 20px; /* Keep the button size similar to desktop */
         padding: 10px; /* Increase padding for better touch interaction */
         border-radius: 25px; /* Increased border-radius for a more rounded appearance */
     }
@@ -284,4 +288,4 @@ body.instagram-theme .anonymous-qa {
         padding: 20px; /* Ensure consistent padding around the message box */
         border-radius: 15px; /* Maintain rounded corners */
     }
-}
+
