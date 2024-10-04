@@ -230,7 +230,13 @@ body.instagram-theme .anonymous-qa {
     color: #f58529; 
 }
 
+/* Mobile Styles */
 @media (max-width: 480px) {
+    body {
+        background: url('your-background-image.jpg') no-repeat center center fixed; /* Repeat background for mobile */
+        background-size: cover; /* Maintain background size */
+    }
+
     h1 {
         font-size: 24px; 
     }
