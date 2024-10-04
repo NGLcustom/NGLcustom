@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Peking+Duck&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -41,11 +43,13 @@ body.instagram-theme {
 }
 
 h1 {
-    font-size: 28px; /* Increased size for visibility */
+    font-family: 'Peking Duck', cursive; /* Applying the new font */
+    font-size: 38px; /* Increased size for visibility */
     color: #ffffff; /* Start with white color */
     transition: background 0.5s ease, color 0.5s ease; /* Smooth transition for color change */
     text-shadow: 0 0 3px rgba(0, 0, 0, 0.5); /* Reduced shadow for clarity */
 }
+
 
 body.instagram-theme h1 {
     background: linear-gradient(135deg, #f58529, #f77737, #d62976, #962fbf, #4f5bd5);
@@ -243,7 +247,7 @@ body.instagram-theme .anonymous-qa {
     button {
         font-size: 26px; /* Keep the button size similar to desktop */
         padding: 10px; /* Increase padding for better touch interaction */
-        border-radius: 35px; /* Increased border-radius for a more rounded appearance */
+        border-radius: 25px; /* Increased border-radius for a more rounded appearance */
     }
 
     .profile-info {
