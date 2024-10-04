@@ -233,8 +233,7 @@ body.instagram-theme .anonymous-qa {
 /* Mobile Styles */
 @media (max-width: 480px) {
     body {
-        background: url('your-background-image.jpg') no-repeat center center fixed; /* Repeat background for mobile */
-        background-size: cover; /* Maintain background size */
+        background: linear-gradient(135deg, #0d0d0d, #1e1e1e); /* Maintain the dark gradient for mobile */
     }
 
     h1 {
@@ -255,6 +254,8 @@ body.instagram-theme .anonymous-qa {
     .profile-info {
         gap: 10px; /* Maintain spacing */
         padding: 10px; /* Keep the padding */
+        background-color: rgba(0, 0, 0, 0.8); /* Dark background for profile info */
+        border-radius: 15px 15px 0 0; /* Rounded corners at the top */
     }
 
     .profile-pic {
@@ -278,10 +279,13 @@ body.instagram-theme .anonymous-qa {
         height: 120px; /* Slightly taller for mobile */
         font-size: 16px; /* Adjust font size for readability */
         padding: 12px; /* Add padding for touch interaction */
+        background-color: rgba(41, 41, 41, 0.8); /* Slightly transparent background */
+        border-radius: 0 0 10px 10px; /* Rounded corners at the bottom */
     }
 
     .message-box {
         padding: 20px; /* Ensure consistent padding around the message box */
         border-radius: 15px; /* Maintain rounded corners */
+        background: rgba(30, 30, 30, 0.8); /* Slightly transparent dark background */
     }
 }
